@@ -28,8 +28,8 @@ defmodule Ticketmaster.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.8"},
-      {:poison, "~> 1.5 or ~> 2.0"}
+      {:httpoison, "~> 0.8 or ~> 1.0"},
+      {:poison, "~> 1.5 or ~> 2.1 or ~> 3.0"}
     ]
   end
 end
